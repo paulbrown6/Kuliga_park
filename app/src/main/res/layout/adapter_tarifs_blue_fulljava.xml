@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_adapter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tariff_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bacgraund_slugi_zima"
+
+        android:drawableEnd="@drawable/ic_back_right"
+        android:elevation="50dp"
+        android:gravity="left|center"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:text="Подъёмник"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</FrameLayout>

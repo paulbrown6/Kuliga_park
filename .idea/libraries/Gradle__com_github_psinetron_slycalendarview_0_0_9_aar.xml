@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.psinetron:slycalendarview:0.0.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9abf1b02fca30080f0406dd4e8353d0f/transformed/jetified-slycalendarview-0.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9abf1b02fca30080f0406dd4e8353d0f/transformed/jetified-slycalendarview-0.0.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9abf1b02fca30080f0406dd4e8353d0f/transformed/jetified-slycalendarview-0.0.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/80d22016c48ac8f46df498ac54b84d3e/transformed/jetified-slycalendarview-0.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/80d22016c48ac8f46df498ac54b84d3e/transformed/jetified-slycalendarview-0.0.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/80d22016c48ac8f46df498ac54b84d3e/transformed/jetified-slycalendarview-0.0.9/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fecce3cdc3994b8e07ed118469e94c9d/transformed/jetified-slycalendarview-0.0.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fecce3cdc3994b8e07ed118469e94c9d/transformed/jetified-slycalendarview-0.0.9/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fecce3cdc3994b8e07ed118469e94c9d/transformed/jetified-slycalendarview-0.0.9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.psinetron/slycalendarview/0.0.9/1188baebf3174adea5b6100136d78d70213fb62b/slycalendarview-0.0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

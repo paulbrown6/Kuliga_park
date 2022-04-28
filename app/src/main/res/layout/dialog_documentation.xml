@@ -1,0 +1,127 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/style_edittext"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="Документы"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DAC5C5C5" />
+
+        <TextView
+            android:id="@+id/dialog_karta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autoText="true"
+            android:clickable="true"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:lines="1"
+            android:text="Карта предприятия"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DAC5C5C5" />
+
+        <TextView
+            android:id="@+id/dialog_text_politics"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autoText="true"
+            android:clickable="true"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:lines="1"
+            android:text="Пользовательское соглашение"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DAC5C5C5" />
+
+        <TextView
+            android:id="@+id/dialog_text_mobile_pay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autoText="true"
+            android:clickable="true"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:lines="1"
+            android:text="Способ оплаты в мобильном приложении"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DAC5C5C5" />
+
+        <TextView
+            android:id="@+id/dialog_text_server_pay"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:autoText="true"
+            android:clickable="true"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:lines="1"
+            android:text="Правила покупки услуг"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DAC5C5C5" />
+
+        <Button
+            android:id="@+id/button_dialog_cancel_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/background_button_fulljava"
+            android:fontFamily="@font/montserrat_semibold"
+            android:stateListAnimator="@null"
+            android:text="@string/text_button_cancel_two"
+            android:textAllCaps="false"
+            android:textColor="@color/green"
+            android:theme="@style/NoColorButton" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

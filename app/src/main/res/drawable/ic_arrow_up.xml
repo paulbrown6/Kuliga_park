@@ -1,0 +1,12 @@
+<vector android:height="20dp" android:viewportHeight="13"
+    android:viewportWidth="13" android:width="20dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:name="arrow_up"
+        android:pivotX="6.5"
+        android:pivotY="6.5">
+        <clip-path
+            android:pathData="M0,13l0,-13l13,-0l0,13z"/>
+        <path
+            android:fillColor="#ffffff" android:pathData="M-0,8.9835L1.5329,10.5164L6.5,5.5493L11.4671,10.5164L13,8.9835L6.5,2.4835L-0,8.9835Z"/>
+    </group>
+</vector>

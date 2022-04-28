@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/ad_card_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/button_check"
+            android:buttonTint="@color/bottom_bar_color_nav"
+            android:checked="false"
+            android:fontFamily="@font/montserrat_regular"
+            android:paddingLeft="15dp"
+            android:text="043C2222"
+            android:textColor="@color/bottom_text_color"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/ad_card_bottom_img"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="#83DDDDDD" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

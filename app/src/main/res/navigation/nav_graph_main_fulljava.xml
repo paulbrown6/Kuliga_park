@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/nav_main">
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="com.app.kuliga.ui.fragments.MainFragment"
+        android:label=" "
+        tools:layout="@layout/main_fragment_fulljava" >
+        <action
+            android:id="@+id/action_nav_main_to_nav_mySkiPass"
+            app:destination="@id/nav_mySkiPass" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_services"
+            app:destination="@id/nav_services" />
+        <action
+            android:id="@+id/action_nav_main_to_nav_map"
+            app:destination="@id/nav_map" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.app.kuliga.ui.fragments.MyOrdersFragment"
+        android:label=" "
+        tools:layout="@layout/my_orders_fragment_fulljava" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.app.kuliga.ui.fragments.ProfileFragment"
+        android:label=" "
+        tools:layout="@layout/profile_fragment_fulljava" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.app.kuliga.ui.fragments.CardsHistoryFragment"
+        android:label=" "
+        tools:layout="@layout/cards_history_fragment_fulljava" >
+        <action
+            android:id="@+id/action_nav_history_to_nav_cardHis"
+            app:destination="@id/nav_cardHis" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_cards"
+        android:name="com.app.kuliga.ui.fragments.CardsFragment"
+        android:label=" "
+        tools:layout="@layout/cards_fragment_fulljava" >
+        <action
+            android:id="@+id/action_nav_cards_to_nav_addCard"
+            app:destination="@id/nav_addCard" />
+        <action
+            android:id="@+id/action_nav_cards_to_nav_cardProfile"
+            app:destination="@id/nav_cardProfile" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_stock"
+        android:name="com.app.kuliga.ui.fragments.StockFragment"
+        android:label=" "
+        tools:layout="@layout/stock_fragment_fulljava" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.app.kuliga.ui.fragments.MapParkFragment"
+        android:label=" "
+        tools:layout="@layout/map_park_fragment_fulljava" />
+    <fragment
+        android:id="@+id/nav_weather"
+        android:name="com.app.kuliga.ui.fragments.WeatherFragment"
+        android:label=" "
+        tools:layout="@layout/weather_fragment_fulljava" />
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.app.kuliga.ui.fragments.ContactsFragment"
+        android:label=" "
+        tools:layout="@layout/contacts_fragment_fulljava" />
+    <fragment
+        android:id="@+id/nav_mySkiPass"
+        android:name="com.app.kuliga.ui.fragments.MySkiPassFragment"
+        android:label=" "
+        tools:layout="@layout/my_ski_pass_fragment_fulljava" />
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.app.kuliga.ui.fragments.ServicesFragment"
+        android:label=" "
+        tools:layout="@layout/services_fragment_fulljava" >
+        <action
+            android:id="@+id/action_nav_services_to_nav_service"
+            app:destination="@id/nav_service" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_service"
+        android:name="com.app.kuliga.ui.fragments.ServiceFragment"
+        android:label=" "
+        tools:layout="@layout/service_fragment" />
+    <fragment
+        android:id="@+id/nav_addCard"
+        android:name="com.app.kuliga.ui.fragments.AddCardFragment"
+        android:label=" "
+        tools:layout="@layout/add_card_fragment_fulljava" />
+    <fragment
+        android:id="@+id/nav_cardProfile"
+        android:name="com.app.kuliga.ui.fragments.CardProfileFragment"
+        android:label=" "
+        tools:layout="@layout/card_profile_fragment_fulljava" />
+    <fragment
+        android:id="@+id/nav_cardHis"
+        android:name="com.app.kuliga.ui.fragments.HistoryFragment"
+        android:label=" "
+        tools:layout="@layout/history_fragment_fulljava" />
+</navigation>

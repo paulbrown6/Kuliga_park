@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.kuliga">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.КулигаПарк"
+        android:usesCleartextTraffic="true"
+        android:screenOrientation="portrait"
+        tools:replace="android:icon"
+        android:name="com.orm.SugarApp">
+        <activity
+            android:name=".ui.activitys.WebActivity"
+            android:theme="@style/Theme.Kuliga"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activitys.AuthActivity"
+            android:theme="@style/Theme.Kuliga"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activitys.MainActivity"
+            android:theme="@style/Theme.Kuliga"
+            android:exported="true" />
+        <activity
+            android:name=".ui.activitys.SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data android:name="DATABASE" android:value="kuliga.db" />
+        <meta-data android:name="VERSION" android:value="2" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.app.kuliga" />
+    </application>
+
+</manifest>
